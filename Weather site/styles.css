@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: url('image1.jpg') no-repeat center center fixed; 
+  background-size: cover;
+  color: rgb(51, 51, 51);
+  height: 100%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgb(255, 87, 34); 
+  color: rgb(255, 255, 255);
+  padding: 10px 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  padding: 100px 20px 20px;
+}
+
+.search-bar {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 280px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 5px;
+}
+
+.search-bar button {
+  padding: 10px 15px;
+  background: rgb(255, 87, 34); 
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background: rgb(255, 64, 23); 
+}
+
+.weather-details {
+  text-align: center;
+  margin-top: 50px;
+  color: rgb(255, 237, 237);
+}
+
+.weather-details h2 {
+  margin-bottom: 10px;
+  color: rgb(251, 227, 219);
+}
+
+.toggle-btn {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: rgb(2, 117, 216);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toggle-btn:hover {
+  background: rgb(2, 90, 165);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: rgb(255, 87, 34); 
+  color: rgb(255, 255, 255);
+  margin-top: 50px;
+}
+
+.about {
+  font-size: 18px;
+  line-height: 1.6;
+  background-color: rgba(255, 255, 255, 0.8); 
+  border-radius: 10px;
+  padding: 40px 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  position: relative; 
+  margin-top: 60px;
+}
+
+.about h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: rgb(255, 87, 34); 
+}
+
+.about ul {
+  padding-left: 20px;
+}
+
+.about li {
+  margin-bottom: 15px;
+}
+
+.creator {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  font-size: 14px;
+  color: rgb(255, 87, 34); 
+  font-style: italic;
+}

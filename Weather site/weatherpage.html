@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#search-bar">Search</a></li>
+        <li><a href="#weather-details">Weather</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#footer">Footer</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="search-bar" class="search-bar">
+      <input type="text" id="city-input" placeholder="Enter a city name">
+      <button id="search-btn">Search</button>
+    </section>
+
+    <section id="weather-details" class="weather-details">
+      <h2>Weather Details</h2>
+      <p id="weather-info">Enter a city to get started!</p>
+      <button class="toggle-btn" id="toggle">Switch to Fahrenheit</button>
+    </section>
+
+    <section id="about" class="about">
+      <h3>About This App</h3>
+      <p>This website allows users to view weather information for any city by entering its name in the search bar. Key learning points from creating this project include:</p>
+      <ul>
+        <li><strong>HTML</strong>: Understanding how to structure a webpage using elements such as input fields, buttons, and sections.</li>
+        <li><strong>CSS</strong>: Styling the webpage to create an attractive and responsive design, ensuring it is user-friendly across various devices.</li>
+        <li><strong>JavaScript</strong>: Handling user input, fetching real-time weather data from external APIs, and dynamically displaying it without reloading the page.</li>
+        <li><strong>API Integration</strong>: Learning to interact with external APIs (in this case, OpenWeather) to retrieve and present data.</li>
+        <li><strong>Responsive Design</strong>: Ensuring the website adjusts its layout appropriately for different screen sizes and devices.</li>
+      </ul>
+      <p>This website was made possible through the guidance of various YouTube channels, where I learned the fundamentals of web development step by step.</p>
+      <span class="creator">Created by Vraj Shah</span> 
+    </section>
+  </div>
+
+  <footer id="footer">
+    <p>&copy; 2024 Weather Dashboard | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
